@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+ * main
+ *
+ * Return - zero on success
+ */
+
 
 int main(void)
 {
