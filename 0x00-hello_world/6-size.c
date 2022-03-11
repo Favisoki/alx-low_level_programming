@@ -11,7 +11,7 @@ int main(void)
 	int charSize = sizeof(char);
 	int intSize = sizeof(int);
 	int longSize = sizeof(long int);
-	int longlongSize = sizeof(lomg long int);
+	int longlongSize = sizeof(long long int);
 	int floatsize = sizeof(float);
 
 	printf("Size of a character: %d byte(s)\n", charSize);
