@@ -28,12 +28,6 @@ int main(void)
 				}
 			}
 		}
-		putchar(s);
-		if (n < '9')
-		{
-			putchar(',');
-			putchar(' ');
-		}
 	}
 	putchar('\n');
 	return (0);
