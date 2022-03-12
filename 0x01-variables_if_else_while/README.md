@@ -1,1 +1,1 @@
-rning C - Variables, If-Else statements, While Loops. 
+Learning C - Variables, If-Else statements, While Loops. 
