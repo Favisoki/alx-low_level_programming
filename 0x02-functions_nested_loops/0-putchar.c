@@ -2,14 +2,14 @@
 
 /**
  *
- * main - returns 0
+ * main - prints _putchar
  *
- * Returns: 0
+ * Return: 0 for success
  * 
- */
+*/
 
 int main(void)
 {
 	printf("_putchar\n");
-	return(0);
+	return (0);
 }
