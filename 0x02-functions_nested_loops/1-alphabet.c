@@ -4,9 +4,7 @@
 /**
  * print_alphabet - prints a to z
  *
- * Return: 0 for success
- *
-*/
+ */
 void print_alphabet(void)
 {
 	char c;
@@ -15,5 +13,6 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
+
 	_putchar('\n');
 }
