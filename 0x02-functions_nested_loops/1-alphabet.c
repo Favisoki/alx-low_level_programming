@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints putchar
+ * main - Prints a to z
  *
  * Return: 0 for success
  *
