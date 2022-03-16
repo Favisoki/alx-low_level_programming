@@ -5,20 +5,14 @@
  * _islower - checks if a character is lowercase
  *@c: character to check
  *
- * Return: 0 for success
+ * Return: 1 if lowercase, 0 if otherwise
  *
 */
 int _islower(int c)
 {
-	int c;
-
-	if (c == islower(c))
-	{
-		ret = 0;
-	}
+	if (c >= 97 && c<= 122)
+	
+		return (1);
 	else
-	{
-		ret = 1;
-	}
-	return (ret);
+		return (0);
 }
