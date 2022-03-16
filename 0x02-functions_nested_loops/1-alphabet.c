@@ -2,20 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints a to z
+ * print_alphabet - prints a to z
  *
  * Return: 0 for success
  *
 */
-int main(void)
+void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
-		_putchar("\n");
-
 	}
+	_putchar("\n");
 
 	return (0);
 }
