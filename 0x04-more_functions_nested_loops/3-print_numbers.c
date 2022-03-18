@@ -8,8 +8,12 @@
  *
  * Return: 1 if uppercase, 0 if lowercase
  */
-int mul(int a, int b)
+void print_numbers(void)
 {
-	return (a * b);
+	for (int n = 0; n <= 9; n++)
+	{
+		_putchar(n);
+		_putchar('\n');
+	}
 }
 
