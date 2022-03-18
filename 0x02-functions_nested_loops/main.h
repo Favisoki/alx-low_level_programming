@@ -20,6 +20,8 @@
  * jack_bauer - prints every minute of the day
  *
  * times_table - prints 9 times table
+ *
+ * add -adds two integers
  */
 
 
@@ -33,3 +35,4 @@ int _abs(int);
 void jack_bauer(void);
 void times_table(void);
 int print_last_digit(int);
+int add(int int);
