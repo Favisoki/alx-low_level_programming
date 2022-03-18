@@ -10,6 +10,8 @@
 
 void print_to_98(int n)
 {
+	int out;
+
 	if (n < 98)
 	{
 		out = n;
