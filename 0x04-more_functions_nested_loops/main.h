@@ -8,7 +8,7 @@
  *
  * mul - multiplies two digits
  *
- * print_numbers - prints numbers from 0 to 9
+ * print_numbers - prints all numbers from 0 to 9
  */
 
 int _isupper(int c);
