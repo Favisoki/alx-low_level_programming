@@ -14,10 +14,10 @@ void times_table(void)
 
 	for (y = 0; y <= 9; y++)
 	{
-		for (x =0; x <= 9; x++)
+		for (x = 0; x <= 9; x++)
 		{
 			prod = y * x;
-			if (x! = 0)
+			if (x != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -27,15 +27,12 @@ void times_table(void)
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
 			}
-			else if ((prod < 10) &&(x != 0))
+			else if ((prod < 10) && (x != 0))
 			{
 				_putchar(' ');
 				_putchar((prod % 10) + '0');
 			}
 			else
 				_putchar((prod % 10) + '0');
-		m = 9;
-		n = n * m;
-		return (n);
-	}
+		}
 }
