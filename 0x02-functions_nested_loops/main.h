@@ -15,6 +15,8 @@
  *
  * _abs - prints the absolute of a number
  *
+ *print_last_digit - prints the last digit of a number
+ *
  * jack_bauer - prints every minute of the day
  *
  * times_table - prints 9 times table
@@ -30,3 +32,4 @@ int print_sign(int n);
 int _abs(int);
 void jack_bauer(void);
 void times_table(void);
+int print_last_digit(int);
