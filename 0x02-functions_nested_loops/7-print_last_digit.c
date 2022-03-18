@@ -2,12 +2,19 @@
 #include <stdio.h>
 
 /**
- * print_last_digit - returns the value of the last digit of a number
- *@n: number to check
+ * print_last_digit -prints last digit of a number
+ *@n: number to compute last digit for
  *
- * Return: value of the last digit
+ * Return: last digit
  */
+
 int print_last_digit(int n)
 {
-	return (n % 10);
+	n = n % 10;
+
+	if (n < 0)
+		n = -n;
+	_putchar(n + '0');
+
+	return (n);
 }
