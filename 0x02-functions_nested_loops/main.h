@@ -14,6 +14,10 @@
  * print_sign - prints the sign of a number
  *
  * _abs - prints the absolute of a number
+ *
+ * jack_bauer - prints every minute of the day
+ *
+ * times_table - prints 9 times table
  */
 
 
@@ -24,3 +28,5 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
+void jack_bauer(void);
+void times_table(void);
