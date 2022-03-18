@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- *mul - multiplies two numbers
- *@a: first number
- *@b: second number
+ *print_numbers - prints all numbers from 0 to 9
  *
- * Return: 1 if uppercase, 0 if lowercase
+ *
+ * Return: void
  */
 void print_numbers(void)
 {
