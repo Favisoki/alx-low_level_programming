@@ -7,7 +7,9 @@
  *
  * print_alphabet_x10 - prints a to x 10 times
  *
- * _islower - checks is a character is lowercase
+ * _islower - checks if a character is lowercase
+ *
+ * _isalpha - checks if a character is an alphabet
  */
 
 
@@ -15,3 +17,4 @@ int _putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
+int _isalpha(int c);
