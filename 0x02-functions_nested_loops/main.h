@@ -12,6 +12,8 @@
  * _isalpha - checks if a character is an alphabet
  *
  * print_sign - prints the sign of a number
+ *
+ * _abs - prints the absolute of a number
  */
 
 
@@ -21,3 +23,4 @@ void print_alphabet_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
+int _abs(int);
