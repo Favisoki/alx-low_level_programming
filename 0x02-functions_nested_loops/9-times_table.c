@@ -12,6 +12,8 @@ void times_table(void)
 {
 	int x, y, prod;
 
+	prod = 0;
+
 	for (y = 0; y <= 9; y++)
 	{
 		for (x = 0; x <= 9; x++)
@@ -35,5 +37,6 @@ void times_table(void)
 			else
 				_putchar((prod % 10) + '0');
 		}
+		_putchar('\n');
 	}
 }
