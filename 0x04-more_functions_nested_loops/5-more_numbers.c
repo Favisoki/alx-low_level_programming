@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- *print_most_numbers - print 0-14, 10 times
+ *more_numbers - print 0-14, 10 times
  *
  *
  * Return: void
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int i, j;
 
