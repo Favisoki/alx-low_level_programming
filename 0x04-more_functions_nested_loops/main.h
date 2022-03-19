@@ -2,15 +2,15 @@
 
 /**
  * _putchar - writes the character c to stdout
- *_isupper - checks if a character is uppercase
+ * _isupper - checks if a character is uppercase
  * _isdigit - checks if a character is a digit
  * mul - multiplies two digits
- * print_numbers - prints numbers 0 to 9
+ * print_numbers - print numbers 0 to 9
  * print_most_numbers - prints numbers 0 to 9 excpt 2/4
  * more_numbers - print 0-14, 10 times
- *print_line - draw straight line
- *print_diagonal - print diagonal line 
- *print_triangle - draw a triangle
+ * print_line - draw straight line
+ * print_diagonal - print diagonal line 
+ * print_triangle - draw a triangle
  */
 
 int _putchar(char);
