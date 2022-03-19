@@ -9,8 +9,8 @@
  * print_most_numbers - prints numbers 0 to 9 excpt 2/4
  * more_numbers - print 0-14, 10 times
  *print_line - draw straight line
- print_diagonal - print diagonal line 
- *
+ *print_diagonal - print diagonal line 
+ *print_triangle - draw a triangle
  */
 
 int _putchar(char);
@@ -22,3 +22,4 @@ void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
+void print_triangle(int size);
