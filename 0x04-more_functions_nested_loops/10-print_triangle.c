@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *print_triangle - draw triagle
+ *print_triangle - draw a triagle
  *@size: dimensions of triangle
  *
  * Return: nothing
