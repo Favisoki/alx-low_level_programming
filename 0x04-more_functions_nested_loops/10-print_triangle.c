@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *print_triangle - draw a triagle
+ *print_triangle - draw a triangle
  *@size: dimensions of triangle
  *
  * Return: nothing
@@ -15,9 +15,9 @@ void print_triangle(int size)
 
 	for (x = 1; x <= size; x++)
 	{
-		for (j = size - 1; j > 0; j--)
+		for (y = size - 1; y > 0; y--)
 			_putchar(' ');
-		for (j = i; j > 0; j--)
+		for (y = i; y > 0; y--)
 			_putchar('#');
 		_putchar('\n');
 	}
