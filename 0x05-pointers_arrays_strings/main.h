@@ -9,6 +9,7 @@
  * rev_string - reverses a string
  * puts2- prints every other character of a string
  *puts_half - prints half of a string
+ print_array - print n digits of an array
  *
  */
 int _putchar(char c);
@@ -20,3 +21,4 @@ void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
+void print_array(int *a, int *n);
